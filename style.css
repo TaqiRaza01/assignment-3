@@ -1,0 +1,38 @@
+.footer-para{
+    text-align: center;
+
+}
+
+
+.navbar{
+ text-align: center;
+}
+
+
+.navbar table {
+    display: inline-block;
+}
+
+#h1-of-gallary{
+    border: 2px solid black;
+}
+
+#h3-of-gallary{
+    font-weight: normal;
+}
+#span-1{
+    border: 1px solid black;
+}
+
+#span-2{
+    border: 1px solid orangered;
+}
+
+
+#country {
+    width: 100px;
+}
+#last-link{
+    color: blue;
+    font-weight: 600;
+}

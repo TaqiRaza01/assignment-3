@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- THIS IS THE LINK EXTERNAL CSS -->
+
+    <link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+    <!-- INTERNAL CSS -->
+
+
+    <style>
+        .navbar a {
+
+            color: blue;
+            font-weight: 600;
+            font-size: 14px;
+
+        }
+
+        .navbar td,
+        th {
+            padding: 3px 16px;
+        }
+    </style>
+
+
+    <title>project 3</title>
+</head>
+
+
+<!-- BODY           starts from here -->
+
+<body>
+
+
+
+    <!-- HEADER starts from here -->
+    <header>
+        <nav class="navbar">
+            <table border="2" class="table">
+                <tr>
+                    <th>Umair Network</th>
+                    <td><a href="./index.html">Home</a></td>
+                    <td><a href="./about.html">About</a></td>
+                    <td><a href="./gallery.html">Gallery</a></td>
+                    <td><a href="./media.html">Media</a></td>
+                    <td><a href="./contact.html">Contact</a></td>
+                    <td><a href="./login.html">Login</a></td>
+                    <td><a href="./register.html">Register</a></td>
+                </tr>
+            </table>
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN starts from here -->
+    <main>
+
+
+        <div style="text-align: center;">
+
+            <hr>
+            <h1>This is Login page</h1>
+            <hr>
+            <h2>Please register to continue</h2>
+            <p>All the fields are required</p>
+
+        </div>
+
+        <div>
+            <form action="./index.html">
+                <fieldset style="width: 17%; margin: 0 auto;">
+                    <legend>Register</legend>
+                    <br>
+
+
+
+                    <!-- FULL NAME -->
+
+
+                    <label for="full-name">Full Name:</label>
+                    <br>
+                    <input type="text" id="full-name" placeholder="Full Name" name="full name">
+
+                    <br>
+                    <br>
+
+
+
+
+                    <!-- EMAIL -->
+
+
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="text" id="email" placeholder="Email" name="email">
+
+
+                    <!-- Password -->
+                    <br>
+                    <br>
+                    <label for="Password">Password:</label>
+                    <br>
+
+                    <input type="password" id="Password" placeholder="Password" name="Password">
+                    <br>
+                    <br>
+
+
+
+
+
+
+                    <!-- GENDER -->
+
+                    <label>Gender:</label>
+
+                    <br>
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender" id="male" value="Male">
+
+                    <label for="female">Female:</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+
+                    <br>
+                    <br>
+
+
+
+                    <!-- HOBBIES -->
+
+
+
+                    <label>Hobbies:</label>
+
+                    <br>
+                    <label for="Music">Music:</label>
+                    <input type="checkbox" name="hobby" id="Music" value="Music">
+
+                    <label for="Art">Art:</label>
+                    <input type="checkbox" name="hobby" id="Art" value="Art">
+
+
+                    <label for="Painting">Painting:</label>
+                    <input type="checkbox" name="hobby" id="Painting" value="Painting">
+
+
+                    <br>
+                    <br>
+
+                    <label for="country">Country:</label>
+                    <br>
+                    <select name="country" id="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    
+
+                    <br>
+                    <br>
+
+                    <label for="DOB">DOB:</label>
+                    <br>
+                    <input type="date" name="date" id="DOB">
+
+                    <br>
+                    <br>
+                    <label for="file">Upload your photo:</label>
+                    <br>
+                    <input type="file" name="photo" id="file">
+
+                    <br>
+                    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- REGISTER BUTTON -->
+                    <input type="submit" value="Register">
+
+                    <br>
+                    <br>
+                    <a href="./login.html" id="last-link">Already a user?</a>
+
+
+                    <br>
+                    <br>
+
+
+                </fieldset>
+            </form>
+        </div>
+
+
+
+    </main>
+
+    <!-- FOOTER starts from here -->
+    <footer>
+        <hr>
+        <p class="footer-para">
+
+            Copyright &copy; 2022 All rights reserved.
+
+
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
